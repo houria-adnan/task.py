@@ -1,0 +1,15 @@
+print("rollnumber = 12")
+planets=["mercury", "venus", "earth","mars","jupiter","saturn","uranus","pluto"]
+planets.append("pluto")
+print(planets)
+planets.append("jumbo")
+print(planets)
+popped = planets.pop(9)
+print(popped)
+planets.reverse()
+print(planets)
+planets.sort()
+print(planets)
+planets.clear()
+print(planets)
+del planets
